@@ -375,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A51BAA2661545B287B41293 /* Pods-PlacePhotosSample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PlacePhotosSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -388,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9FA294C5D5368486CAE56A39 /* Pods-PlacePhotosSample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PlacePhotosSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
